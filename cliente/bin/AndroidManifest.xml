@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="br.com.elijunior.zimba"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconeprincipal"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.com.elijunior.zimba.ZimbaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.SobreActivity"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.ModuloActivity"
+            android:label="@string/title_activity_modulo" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.ModuloExponencialActivity"
+            android:label="@string/title_activity_modulo_exponencial" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.FermatActivity"
+            android:label="@string/title_activity_fermat" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.OpcoesAuxiliaresFragmentActivity"
+            android:label="@string/title_activity_opcoes_auxiliares_fragment" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.EuclidesActivity"
+            android:label="@string/title_activity_euclides" >
+        </activity>
+        <activity
+            android:name="br.com.elijunior.zimba.EuclidesEstendidoActivity"
+            android:label="@string/title_activity_euclides_estendido" >
+        </activity>
+    </application>
+
+</manifest>

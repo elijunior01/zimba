@@ -1,4 +1,6 @@
-zimba
-=====
+CriptoZimba
+==========
 
-Aplicativo utilizado nas aulas do professor Valdir Zimba
+Portabilidade do software usado pelo Profº Valdir Zimba. 
+
+Delphi --> Android
