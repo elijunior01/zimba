@@ -1,4 +1,4 @@
-CriptoZimba
+Zimba
 ==========
 
 Portabilidade do software usado pelo Profº Valdir Zimba. 
